@@ -3,7 +3,7 @@ import os
 
 
 @task
-def tests(c, env='ci', tags='smoke', rerun=1):
+def tests(c, env='ci', tags='smoke', rerun=2):
     """
     Task to run tests
     """
