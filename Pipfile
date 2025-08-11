@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+invoke = "*"
+
+[packages]
+requests = "*"
+pytest = "*"
+assertpy = "*"
+lxml = "*"
+jsonpath = "*"
+jsonpath-ng = "*"
+cerberus = "*"
+pytest-xdist = {extras = ["psutil"], version = "*"}
+invoke = "*"
+pytest-html-reporter= "*"
+pytest-json= "*"
+pytest-rerunfailures= "*"
+pylint = "*"
+
+[requires]
+python_version = "3.9"

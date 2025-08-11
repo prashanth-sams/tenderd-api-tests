@@ -1,0 +1,12 @@
+[FORMAT]
+max-line-length = 120
+
+[MESSAGES CONTROL]
+disable =
+  no-else-break,
+  no-else-continue,
+  no-else-return,
+  too-many-instance-attributes,
+  too-many-lines,
+  too-many-public-methods,
+  wrong-import-order,

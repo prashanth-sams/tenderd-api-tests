@@ -1,0 +1,1 @@
+BASE_URI="https://qa-assignment-omega.vercel.app"
