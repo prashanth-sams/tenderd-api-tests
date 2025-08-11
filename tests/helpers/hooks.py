@@ -28,7 +28,6 @@ class Api:
         headers = CaseInsensitiveDict()
         headers["Accept"] = "*/*"
         headers["Content-Type"] = "application/json"
-        headers["x-api-key"] = "reqres-free-v1"
         yield headers
     
     @pytest.fixture
